@@ -7,7 +7,7 @@ class About extends Component {
     render() {
       return (
         <div className="flex justify-center">
-             <img src={profilePic} className=" mr5 mt2 vh-75 bw1 br bb"/>
+             <img src={profilePic} alt="Katie Macaulay" className=" mr5 mt2 vh-75 bw1 br bb"/>
             <div className="mt5">
                 <h1>About Me!</h1>
                 <p>I love coding, making music, and learning.</p>

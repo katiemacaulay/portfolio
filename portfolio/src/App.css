@@ -22,12 +22,13 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  margin-top: 10vh;
   color: black;
 }
 
@@ -42,4 +43,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.webLinks{
+  background: #6ac6d5;
+  height: 350px;
+  width: 350px;
+  outline: none;
+}
+
+.navButtons{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.thumbnail:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
 }
