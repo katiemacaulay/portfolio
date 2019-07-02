@@ -13,13 +13,13 @@ function BasicExample() {
     <Router>
       <div>
         <div className="flex justify-around bb" >
-            <Link to="/" className="navButtons"><Button>Home</Button></Link>
-            <Link to="/about/" className="navButtons"><Button>About</Button></Link>
+            <Link to="/" className="navButtons">HOME</Link>
+            <Link to="/about/" className="navButtons">ABOUT</Link>
             <div>
               <h1 className="navButtons pl4">Katie Macaulay</h1>
             </div>
-            <Link to="/Work/" className="navButtons"><Button>Work</Button></Link>
-            <Link to="/Contact" className="navButtons"><Button to="/" className="navButtons">Contact</Button></Link>
+            <Link to="/Work/" className="navButtons">WORK</Link>
+            <Link to="/Contact" className="navButtons">CONTACT</Link>
         </div>
         <div className= "flex justify-center">
           <img src={webLogo} alt="Katie Macaulay"className="Negative-margin h3"/>
